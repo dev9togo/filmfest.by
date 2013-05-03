@@ -22,7 +22,7 @@ from apps.cpm2013.tasks import SendSubmissionEmail
 def index(request):
     news = NewsEntry.objects.language().order_by('-added_at')[:10]
     return render_to_response(
-        'cpm2013/in_progress.html',
+        'cpm2013/index.html',
         {'news': news},
         context_instance=RequestContext(request),
     )
