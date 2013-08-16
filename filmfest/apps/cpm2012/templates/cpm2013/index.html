@@ -77,25 +77,31 @@
   <!-- Header block -->
   <div id="header-container" class="container">
       <div class="row">
-              <div class="span6">
-                  <div id="header">
-                      <h2 id="international-festival">Международный фестиваль кино</h2>
+          <div class="span4">
+              <div id="header">
+                  <h2 id="international-festival">Международный фестиваль кино</h2>
 
-                      <h1 id="CinemaPerpetuumMobile">
-                          Cinema<br/>
-                          <span id="Perpetuum">Perpetuum</span><br/>
-                          <span id="Mobile">Mobile</span>
-                      </h1>
-                      <a href="http://filmfest.by" id="filmfest-by">filmfest.by</a>
-                  </div>
-              </div>
-              <div class="span6">
-                  <h3 id="how-2013">
-                      <span class="year">2013</span><br/>
-                      <small>{% trans 'как это было' %}</small>
-                  </h3>
+                  <h1 id="CinemaPerpetuumMobile">
+                      <span>Cinema</span>
+                      <span id="Perpetuum">Perpetuum</span>
+                      <span id="Mobile">Mobile</span>
+                  </h1>
+                  <a href="http://filmfest.by" id="filmfest-by">filmfest.by</a>
               </div>
           </div>
+          <div class="span4 ">
+              <div class="row logo"><img src="{{ STATIC_URL }}cpm2012/logo.jpg" alt="CPM logo" class="img_rounded"/></div>
+              <div class="row year"><span>2013</span></div>
+          </div>
+
+          <div class="span4">
+              <h3 id="how-2013">
+                  <span class="year">2013</span><br/>
+                  <small>{% trans 'как это было' %}</small>
+              </h3>
+          </div>
+
+      </div>
   </div>
 
   <!-- Menu block -->
