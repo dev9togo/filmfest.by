@@ -144,3 +144,25 @@ a#header-call:hover {
 #schedule .place {
     font-size: small;
 }
+
+
+/********************CPM2013**************************/
+#header {
+    text-align: right;
+}
+.logo {
+    height: 120px;
+}
+.logo img {
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+    height: 100%;
+}
+.year span {
+    text-align: center;
+    color: #FFFFFF;
+}
+h1#CinemaPerpetuumMobile span {
+    display: block;
+}
