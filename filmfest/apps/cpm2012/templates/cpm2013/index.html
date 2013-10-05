@@ -18,91 +18,22 @@
     <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <script src="{{ STATIC_URL }}cpm2013/bootstrap/js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-          <script type="text/javascript">
-            google.load('visualization', '1', {'packages': ['geochart']});
-            google.setOnLoadCallback(drawRegionsMap);
 
-            function drawRegionsMap() {
-              var data = new google.visualization.DataTable();
-              data.addColumn('string', '{% trans "Страна" %}');
-              data.addColumn('number', '{% trans "Участников" %}');
-              data.addRows([
-                ['{% trans "Сербия" %}', 1],
-                ['{% trans "Тайланд" %}', 1],
-                ['{% trans "Латвия" %}', 1],
-                ['{% trans "Франция" %}', 1],
-                ['{% trans "Азербайджан" %}', 1],
-                ['{% trans "ОАЭ" %}', 1],
-                ['{% trans "Бразилия" %}', 1],
-                ['{% trans "Сирия" %}', 1],
-                ['{% trans "Швеция" %}', 1],
-                ['{% trans "Новая Зеландия" %}', 1],
-                ['{% trans "Австралия" %}', 1],
-                ['{% trans "Бангладеш" %}', 1],
-                ['{% trans "Израиль" %}', 1],
-                ['{% trans "Грузия" %}', 1],
-                ['{% trans "Казахстан" %}', 1],
-                ['{% trans "Канада" %}', 1],
-                ['{% trans "Швейцария" %}', 1],
-                ['{% trans "Финляндия" %}', 1],
-                ['{% trans "Португалия" %}', 1],
-                ['{% trans "Румыния" %}', 1],
-                ['{% trans "Кыргызстан" %}', 2],
-                ['{% trans "Хорватия" %}', 2],
-                ['{% trans "Индия" %}', 2],
-                ['{% trans "Армения" %}', 2],
-                ['{% trans "Чехия" %}', 2],
-                ['{% trans "Эстония" %}', 2],
-                ['{% trans "Италия" %}', 4],
-                ['{% trans "Великобритания" %}', 5],
-                ['{% trans "США" %}', 9],
-                ['{% trans "Украина" %}', 9],
-                ['{% trans "Германия" %}', 10],
-                ['{% trans "Польша" %}', 19],
-                ['{% trans "Испания" %}', 23],
-                ['{% trans "Беларусь" %}', 29],
-                ['{% trans "Россия" %}', 57]
-              ]);
 
-              var options = {colorAxis: {minValue: 0,  colors: ['#FFFF99', '#DDDD00']}};
-
-              var geomap = new google.visualization.GeoChart(document.getElementById('map-chart'));
-              geomap.draw(data, options);
-            };
-          </script>
   </head>
 
   <body>
   <!-- Header block -->
   <div id="header-container" class="container">
-      <div class="row">
-          <div class="span4">
-              <div id="header">
-                  <h2 id="international-festival">Международный фестиваль кино</h2>
-
-                  <h1 id="CinemaPerpetuumMobile">
-                      <span>Cinema</span>
-                      <span id="Perpetuum">Perpetuum</span>
-                      <span id="Mobile">Mobile</span>
-                  </h1>
-                  <a href="http://filmfest.by" id="filmfest-by">filmfest.by</a>
-              </div>
-          </div>
-          <div class="span4 ">
-              <div class="row logo"><img src="{{ STATIC_URL }}cpm2012/logo.jpg" alt="CPM logo" class="img_rounded"/></div>
-              <div class="row year"><span>2013</span></div>
-          </div>
-
-          <div class="span4">
-              <h3 id="how-2013">
-                  <span class="year">2013</span><br/>
-                  <small>{% trans 'как это было' %}</small>
-              </h3>
-          </div>
-
+      <div id="header-container" class="container">
+          <a href="{% url cpm2013:index %}">
+              <img src="{{ STATIC_URL }}cpm2013/logo2013.png" height="150px" alt="CPM filmfest"/>
+          </a>
+          <a id="header-call" href="{% url cpm2013:index %}">
+              <div id="line1">{% trans "January, 12-20" %}</div>
+              <div id="line2">{% trans "planet Earth" %}</div>
+          </a>
       </div>
-  </div>
 
   <!-- Menu block -->
 
@@ -122,16 +53,38 @@
   <div id="content-container" class="container">
   <div class="row">
       <div class="span9 yellow">
-          <p class="foreword">{% trans 'В <em>январе 2013</em> года состоялось еще одно событие событие для культурной
-              жизни <em>города Минска</em> – был проведен Международный кинофестиваль короткометражного кино <strong>«Cinema
-                  Perpetuum Mobile»</strong>.' %}</p>
 
-          <p class="foreword"></p>
-          {% trans 'На фестиваль было прислано более <em>300-ти авторских фильмов</em> из более чем
-                        <em>40 стран мира</em>. Как в 2012 году, именитое жюри, в которое входили и представители Беларуси, оценивало и выбирало
-                        лучшие фильмы. Показы собирали большую аудиторию заинтересованных зрителей и получили широкую огласку в
-                        прессе.' %}
-          <h3>{% trans 'Победители' %}</h3>
+          <p class="foreworld">
+              Міжнародны фестываль кароткаметражных фільмаў Cinema Perpetuum Mobile - 2013 яшчэ раз адбыўся. Мы працягнулі нашыя эксперыменты з пляцоўкамі і месцамі паказаў: на працягу 9 дзён прагляды адбываліся на 8 пляцоўках Мінска і адначасова  ў 10 гарадах Беларусі, а паказы адмысловай міжнароднай праграмы здарыліся у 15 краінах міру.
+          </p>
+          <p class="foreworld">
+              У СРМ - 2013 прыняло удзел больш за 320 стужак з больш як 40 краін. Конкурсная праграма утрымлівала 24 стужкі, а 60 іншых трапілі у тэматычныя па-за конкурсныя паказы, якія былі разбіты на 16 тэматычных праграм.
+          </p>
+
+          <p class="foreworld">
+              У 2013 годзе мы працягнулі будаваць нашую партнерскую сетку і працягнулі працэс дыялогу паміж кінасуполкамі Беларусі і яе суседзямі, так і усяго сусвету.
+          </p>
+
+          <ul id="cpm2013_results_sections" class="nav nav-tabs">
+              <li class="active"><a href="#winners">winners</a></li>
+              <li><a href="#jury">jury</a></li>
+              <li><a href="#globe">cpm on the globe</a></li>
+          </ul>
+
+          <div class="tab-content">
+              <div id="winners" class="tab-pane active">
+                  <!-->
+                      Winngers
+                  <!-->
+                  <table>
+
+                  </table>
+
+
+              </div>
+              <div id="jury" class="tab-pane">jury content</div>
+              <div id="globe" class="tab-pane">globe contents</div>
+          </div>
 
 
       </div>
@@ -221,6 +174,14 @@
           </div>
       </div>
   </footer>
+
+      <script type="text/javascript">
+          $('#cpm2013_results_sections a').click(function (e) {
+              e.preventDefault();
+              $(this).tab('show');
+          })
+      </script>
+
 
   {% piwik %}
   </body>
