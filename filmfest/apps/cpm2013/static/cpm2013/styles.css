@@ -163,6 +163,7 @@ a#header-call:hover {
     text-align: center;
     color: #FFFFFF;
 }
+<<<<<<< HEAD
 h1 #CinemaPerpetuumMobile span {
     display: block;
 }
@@ -215,3 +216,8 @@ h1 #CinemaPerpetuumMobile span {
 }
 
 
+=======
+h1#CinemaPerpetuumMobile span {
+    display: block;
+}
+>>>>>>> 1d4da0d850976b7d5ec995dc093b36b8a1519b29

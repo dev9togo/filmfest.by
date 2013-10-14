@@ -25,6 +25,7 @@
   <body>
   <!-- Header block -->
   <div id="header-container" class="container">
+<<<<<<< HEAD
 
           <a href="{% url cpm2013:index %}">
               <img src="{{ STATIC_URL }}cpm2013/logo2013.png" height="150px" alt="CPM filmfest"/>
@@ -34,6 +35,37 @@
               <div id="line2">{% trans "planet Earth" %}</div>
           </a>
       </div>
+
+  <!-- Menu block -->
+=======
+      <div class="row">
+          <div class="span4">
+              <div id="header">
+                  <h2 id="international-festival">Международный фестиваль кино</h2>
+
+                  <h1 id="CinemaPerpetuumMobile">
+                      <span>Cinema</span>
+                      <span id="Perpetuum">Perpetuum</span>
+                      <span id="Mobile">Mobile</span>
+                  </h1>
+                  <a href="http://filmfest.by" id="filmfest-by">filmfest.by</a>
+              </div>
+          </div>
+          <div class="span4 ">
+              <div class="row logo"><img src="{{ STATIC_URL }}cpm2012/logo.jpg" alt="CPM logo" class="img_rounded"/></div>
+              <div class="row year"><span>2013</span></div>
+          </div>
+
+          <div class="span4">
+              <h3 id="how-2013">
+                  <span class="year">2013</span><br/>
+                  <small>{% trans 'как это было' %}</small>
+              </h3>
+          </div>
+
+      </div>
+  </div>
+>>>>>>> 1d4da0d850976b7d5ec995dc093b36b8a1519b29
 
   <!-- Menu block -->
 
@@ -65,6 +97,7 @@
               У 2013 годзе мы працягнулі будаваць нашую партнерскую сетку і падтрымалі працэс дыялогу паміж кінасуполкамі Беларусі і яе суседзямі, так і усяго сусвету.
           </p>
 
+<<<<<<< HEAD
           <h2>Победители</h2>
           <div>
               <table class="results table table-bordered table-condensed table-hover table-striped">
@@ -176,6 +209,42 @@
                   </tr>
                   </tbody>
               </table>
+=======
+      </div>
+      <!-- Statistic column block -->
+      <div class="span3 yellow">
+          <div class="fact underborder">
+              <strong>2013</strong>
+              {% trans 'январь' %}
+          </div>
+          <div class="fact underborder">
+              <strong>8</strong>
+              {% trans 'дней' %}
+          </div>
+          <div class="fact underborder">
+              <strong>42</strong>
+              {% trans 'стран' %}
+          </div>
+          <div class="fact underborder">
+              <strong>320</strong>
+              {% trans 'участников' %}
+          </div>
+          <div class="fact underborder">
+              <strong>$500</strong>
+              {% trans 'бюджет' %}
+          </div>
+          <div class="fact underborder">
+              <strong>9</strong>
+              {% trans 'членов жюри' %}
+          </div>
+          <div class="fact underborder">
+              <strong>150</strong>
+              {% trans 'волонтера' %}
+          </div>
+          <div class="fact">
+              <strong>8</strong>
+              {% trans 'площадок' %}
+>>>>>>> 1d4da0d850976b7d5ec995dc093b36b8a1519b29
           </div>
 
 
