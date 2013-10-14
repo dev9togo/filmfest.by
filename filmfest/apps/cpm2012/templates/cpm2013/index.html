@@ -25,7 +25,7 @@
   <body>
   <!-- Header block -->
   <div id="header-container" class="container">
-      <div id="header-container" class="container">
+
           <a href="{% url cpm2013:index %}">
               <img src="{{ STATIC_URL }}cpm2013/logo2013.png" height="150px" alt="CPM filmfest"/>
           </a>
@@ -52,7 +52,7 @@
 
   <div id="content-container" class="container">
   <div class="row">
-      <div class="span9 yellow">
+      <div class="span10 yellow">
 
           <p class="foreworld">
               Міжнародны фестываль кароткаметражных фільмаў Cinema Perpetuum Mobile - 2013 яшчэ раз адбыўся. Мы працягнулі нашыя эксперыменты з пляцоўкамі і месцамі паказаў: на працягу 9 дзён прагляды адбываліся на 8 пляцоўках Мінска і адначасова  ў 10 гарадах Беларусі, а паказы адмысловай міжнароднай праграмы здарыліся у 15 краінах міру.
@@ -62,98 +62,193 @@
           </p>
 
           <p class="foreworld">
-              У 2013 годзе мы працягнулі будаваць нашую партнерскую сетку і працягнулі працэс дыялогу паміж кінасуполкамі Беларусі і яе суседзямі, так і усяго сусвету.
+              У 2013 годзе мы працягнулі будаваць нашую партнерскую сетку і падтрымалі працэс дыялогу паміж кінасуполкамі Беларусі і яе суседзямі, так і усяго сусвету.
           </p>
 
-          <ul id="cpm2013_results_sections" class="nav nav-tabs">
-              <li class="active"><a href="#winners">winners</a></li>
-              <li><a href="#jury">jury</a></li>
-              <li><a href="#globe">cpm on the globe</a></li>
-          </ul>
-
-          <div class="tab-content">
-              <div id="winners" class="tab-pane active">
-                  <!-->
-                      Winngers
-                  <!-->
-                  <table>
-
-                  </table>
-
-
-              </div>
-              <div id="jury" class="tab-pane">jury content</div>
-              <div id="globe" class="tab-pane">globe contents</div>
+          <h2>Победители</h2>
+          <div>
+              <table class="results table table-bordered table-condensed table-hover table-striped">
+                  <thead>
+                  <tr>
+                      <td>Номинация</td>
+                      <td>Кадр</td>
+                      <td>Номинация</td>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="film_prize">GRAND PRIX</span></td>
+                      <td><img src="https://lh4.googleusercontent.com/uAMcouktF93XcSFFZxFxed6zN56Y7n2kyYPOYSENowxt_yGks_fNq4cS0K2VqfUsO7NIapS05y5-MjCgPRUx7nHcqUkeYwDAca_oaSQr7Q783GqxVAJ2" class="film_still"></td>
+                      <td><span class="film_title">Эскимосский поцелуй</span><br><span class="film_director">Карин Брэк (Швеция, 2012)</span><br><span class="film_duration">Драма/ 13 минут</span><br><br>
+                          <p class="film_description">Сын Изы в коме после аварии. Мы следуем за ней через боль и страх, когда она идет к чему-то иному. </p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><span class="film_prize">PERPETUUM AMOR</span></td>
+                      <td><img src="https://lh4.googleusercontent.com/rbf1SHa4tI2QMnRQfUKVHI-kmhegpWlbHMWoj4o8pba3xIuDgADqaD1pP917hB42x7ulecSABxjn1jj1sGpzaud7NC2MZuOvwv77T_WYEs3D1KUEAl68" class="film_still"></td>
+                      <td><span class="film_title">Шум </span><br><span class="film_director">Татьяна и Ольга Полиектовы (Россия, Санкт-Петербург, 2012)</span><br><span class="film_duration">Драма/ 10 минут</span><br><br>
+                          <p class="film_description">Фильм о человеке, шумные мысли которого,  мешали ему найти свое счастье.</p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><span class="film_prize">PERPETUUM ADVERSI</span></td>
+                      <td><img src="https://lh6.googleusercontent.com/e85tqVHR4dAs34Co8EdTw7PIopAxxiFrzzMjQUYysphHjZypVnn1LltJpkNnNs9N0koArjrNv7BT77Wi4TG8nkQ3550f56X902FUwQuISbhlOpvf8KjE" class="film_still"></td>
+                      <td><span class="film_title">Революция в Рейкьявике</span><br><span class="film_director">Изольд Уггадоттир (Исландия, 2012)</span><br><span class="film_duration">Драма/ 19 минут</span><br><br>
+                          <p class="film_description">Из-за коллапса исландской экономики Гудфинна (которой 58 лет), восстает против кризиса, чтобы сохранить собственное достоинство.</p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><span class="film_prize">PERPETUUM ARTS</span></td>
+                      <td><img src="https://lh6.googleusercontent.com/7cH62MrjTTdTVMJFBUiO2EJFc6xtFjEg8Yfipux1fcV2AtuQ83xngPhYqeTkq4Ji_vE7VzXquD2GaQCP4jVxtXvb1v299kJSBormB9T9xpr6tfDpl7cM" class="film_still"></td>
+                      <td><span class="film_title">Нить сновидения</span><br><span class="film_director">Марта Пайек (Польша, Лодзь, 2011)</span><br><span class="film_duration">Драма /14 минут</span><br><br>
+                          <p class="film_description">Фильм “Нить сновидения” раскрывает тему сна. Сон — это место встречи мира цела и разума; это неуловимо для нас и тяжело распозноваемо.  Сны переносят нас в мир, где правилы изменчивы, в то время как Реальный мир, правила которого, очевидно, мы знаем, кажется нам лишенным логики.</p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><span class="film_prize">PERPETUUM MOBILE</span></td>
+                      <td><img src="https://lh4.googleusercontent.com/uRglxzoOZPQMP4RzQ6hH4_L0e0SkXUvckI62_zHFcvBVzRjQKgSqRJ7K0LbxYl81F1081437NIBQODVT0uXHaGlAC3QN5Y9ZY_iQCkTCpcWLIAdC34-M" class="film_still"></td>
+                      <td><span class="film_title">Мама</span><br><span class="film_director">Дмитрий Суржиков (Украина, г. Одесса, 2011)</span><br><span class="film_duration">Драма/ триллер/ 15 минут</span><br><br>
+                          <p class="film_description">Дети вырастают, и у них начинается своя жизнь. Зачастую это происходит вдали от родного дома. Одиночество и старость — вот что ждет нашу героиню, Маму. Весь ее мир — это однокомнатная квартирка в старом доме, с видом на стройку новой многоэтажки, кроссворды и телевизор. Однажды сосед Мамы просит присмотреть ее за его питомцем — игуаной, которая заменяет ей ребенка. </p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><span class="film_prize">PERPETUUM VITA</span></td>
+                      <td><img src="https://docs.google.com/persistent/docs/documents/1D3JpFu3SgHycOfFbK5cyPnmqVkSfb3ogUpkqDlMT2mI/image/1uNdg6Mq1aX1NEmeUCzdRVq3DcawkdIbt" class="film_still"></td>
+                      <td><span class="film_title">Висельник</span><br><span class="film_director">Бартош Круглик (Польша, Варшава, 2012)</span><br><span class="film_duration">Фантастика, черная комедия/ 15 минут</span><br><br>
+                          <p class="film_description">Что вы будете делать, если Смерть неожиданно посетит вас? Может ли ваша жизнь быть выторгована в карточной игре? Черная комедия.</p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><span class="film_prize">THE BEST BELARUSSIAN FILM</span></td>
+                      <td><img src="https://docs.google.com/persistent/docs/documents/1D3JpFu3SgHycOfFbK5cyPnmqVkSfb3ogUpkqDlMT2mI/image/1Gt7gGm2sKmH_CA_PCnq8W6uyNtGDhnWu" class="film_still"></td>
+                      <td><span class="film_title">City</span><br><span class="film_director">Андрей Баджи Токинданг (Беларусь, Минск, 2012)</span><br><span class="film_duration">Боевик, пародия, триллер, ужасы/ 4 минуты</span><br><br>
+                          <p class="film_description">События разворачиваются в столице Республики Беларусь, городе Минске. Музыка группы 'RECHA' превращает свирепствующих в городе зомби в обычных людей, что символизирует силу влияния искусства на общество. В финале клипа музыканты уезжают спасать своим творчеством другие города.</p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><span class="film_prize">THE BEST URBAN FILM</span></td>
+                      <td><img src="http://www.squat-lefilm.com/squelettes/icono/titreperso.png" class="film_still"></td>
+                      <td><span class="film_title">Сквот — город принадлежит нам</span><br><span class="film_director">Кристоф Коэльо  (Франция, 2011)</span><br><span class="film_duration">Документальный/ 94 мин</span><br><br>
+                          <p class="film_description">История барселонской сети «Miles de Viviendas» (Тысячи домов) — разношерстной группы активистов, которая решительно реагирует на спекуляцию недвижимостью в своем городе: с 2002 г. они вламываются в пустующие квартиры и переделывают их под уютные жилища.</p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><span class="film_prize">PEOPLE'S CHOICE AWARD</span></td>
+                      <td><img src="https://lh6.googleusercontent.com/p6MR6jV60gw4gzIk11FZiBS-Rrvmew4iWmcNeZ2vYUSbj22QADH06oKp2P9ATFczTXA9DOh9hURkxZhWJq20sI04Tp2ZY-kzPgqFKNewAhprzIc6OFlJ" class="film_still"></td>
+                      <td><span class="film_title">82</span><br><span class="film_director">Калум Макдиармид (Великобритания, Лондон, 2012)</span><br><span class="film_duration">Драма, триллер/ 6 минут</span><br><br>
+                          <p class="film_description">Почтальон (актер Ник Моран) позволяет нам проникнуть в свой темный мир в тихом пригороде. </p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><span class="film_prize">PEOPLE'S CHOICE AWARD (MINSK, MOGILEV)</span></td>
+                      <td><img src="https://lh4.googleusercontent.com/uAMcouktF93XcSFFZxFxed6zN56Y7n2kyYPOYSENowxt_yGks_fNq4cS0K2VqfUsO7NIapS05y5-MjCgPRUx7nHcqUkeYwDAca_oaSQr7Q783GqxVAJ2" class="film_still"></td>
+                      <td><span class="film_title">Эскимосский поцелуй</span><br><span class="film_director">Карин Брэк (Швеция, 2012)</span><br><span class="film_duration">Драма/ 13 минут</span><br><br>
+                          <p class="film_description">Сын Изы в коме после аварии. Мы следуем за ней через боль и страх, когда она идет к чему-то иному. </p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><span class="film_prize">PEOPLE'S CHOICE AWARD (MINSK, MOGILEV)</span></td>
+                      <td><img src="https://lh3.googleusercontent.com/jw7GBJmQ3fAZAk0tuNkKmVkogeSSgsztljagVr3FOAmXEyGNocLbwqnRp6ByevqPRqT1hUhaWateO8zFfOPtEs506aXCxysylkXmZ3IULKZHmT8YFXGc" class="film_still"></td>
+                      <td><span class="film_title">Circus</span><br><span class="film_director">Пабло Ремон (Испания, Мадрид, 2011)</span><br><span class="film_duration">Комедия/ 8 минут</span><br><br>
+                          <p class="film_description">Скамейка в парке. Два сотрудника, уволенных из-за экономического кризиса. Революционная идея поможет решить проблему неопределенного будущего.</p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><span class="film_prize">PEOPLE'S CHOICE AWARD (LONDON)</span></td>
+                      <td><img src="https://lh4.googleusercontent.com/PWyoUlCCgfutqVkm392CKKp3W_S_dnluikRvDg-_rBsNiPYiy2TCE-S1Dpwm0ZJUGE4l5-Lb9QaKz6sP5qHl1RZVEikoWY9CEn8BEqj2yhjtAM-XIQLk" class="film_still"></td>
+                      <td><span class="film_title">Simple Things</span><br><span class="film_director">Артем Лобач (Беларусь, Борисов, 2012)</span><br><span class="film_duration">Документальный/ 11 минут</span><br><br>
+                          <p class="film_description">Кто такой “белоруский мужик”? Этот фильм про белорусского героя от сохи. Если понять и услышать героя фильма, тогда можно приблизится к пониманию души простого белоруса. </p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><span class="film_prize">PEOPLE'S CHOICE AWARD OF GEORGETOWN (MALAYSIA)</span></td>
+                      <td><img src="https://lh5.googleusercontent.com/0WPYZDsSkfkvTcu4nnSxppKYjGz4rstElQicG9ltA4idWm7aQKgXL-VnQPWHt5M2gZGEwI0fGFNcAEw8X1l1SIzO7bI6HSdz_K28XdoaQ9R0MInqn07a" class="film_still"></td>
+                      <td><span class="film_title">Kirland</span><br><span class="film_director">Илья Божко (Беларусь, Минск, 2012)</span><br><span class="film_duration">Сатира, фантастическая антутопия/7 минут</span><br><br>
+                          <p class="film_description">Политическая сатира, фантастическая антиутопия в классической эстетике немого кинематографа.</p>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><span class="film_prize">PEOPLE'S CHOICE AWARD OF TIRASPOL (MOLDOVA) AND CLUJ (ROMANIA)</span></td>
+                      <td><img src="https://lh4.googleusercontent.com/ZTrc_HzuAhcj9vtOQLoM8p-TUrnjcWT6rqieMXZkFG3qfqT5EYdkS_BlNr4M7PB0LQ0MVPARbS7DpuvRuLWVTRZnBvCyhCiizB2C7mHeuPhFue4iHj5y" class="film_still"></td>
+                      <td><span class="film_title">Второе дыхание</span><br><span class="film_director">Сергей Цысс (Россия, Москва, 2012)</span><br><span class="film_duration">Научная фантастика/ 7 минут</span><br><br>
+                          <p class="film_description">Каждый день Он должен сделать новый цветок из алюминиевой банки и посадить его в сухую землю. В этом смысл его существования, ведь в мире больше ничего не осталось, кроме металлического шелеста цветов апокалипсиса.</p>
+                      </td>
+                  </tr>
+                  </tbody>
+              </table>
           </div>
 
 
       </div>
       <!-- Statistic column block -->
-      <div class="span3 yellow">
-          <div class="fact underborder">
-              <strong>2013</strong>
-              {% trans 'январь' %}
-          </div>
-          <div class="fact underborder">
-              <strong>8</strong>
-              {% trans 'дней' %}
-          </div>
-          <div class="fact underborder">
-              <strong>42</strong>
-              {% trans 'стран' %}
-          </div>
-          <div class="fact underborder">
-              <strong>320</strong>
-              {% trans 'участников' %}
-          </div>
-          <div class="fact underborder">
-              <strong>$500</strong>
-              {% trans 'бюджет' %}
-          </div>
-          <div class="fact underborder">
-              <strong>9</strong>
-              {% trans 'членов жюри' %}
-          </div>
-          <div class="fact underborder">
-              <strong>150</strong>
-              {% trans 'волонтера' %}
-          </div>
-          <div class="fact">
-              <strong>8</strong>
-              {% trans 'площадок' %}
-          </div>
-          <div class="fact">
-                       <strong>8</strong>
-                       {% trans 'городов в Беларуси' %}
-                   </div>
-          <div class="fact">
-                                 <strong>15</strong>
-                                 {% trans 'стран-удзельнікаў міжнародных паказаў' %}
-                             </div>
+      <div class="span2 yellow">
+          <div class="facts">
+              <div class="fact underborder">
+                  <strong>2013</strong>
+                  {% trans 'январь' %}
+              </div>
+              <div class="fact underborder">
+                  <strong>8</strong>
+                  {% trans 'дней' %}
+              </div>
+              <div class="fact underborder">
+                  <strong>42</strong>
+                  {% trans 'стран' %}
+              </div>
+              <div class="fact underborder">
+                  <strong>320</strong>
+                  {% trans 'участников' %}
+              </div>
+              <div class="fact underborder">
+                  <strong>$500</strong>
+                  {% trans 'бюджет' %}
+              </div>
+              <div class="fact underborder">
+                  <strong>9</strong>
+                  {% trans 'членов жюри' %}
+              </div>
+              <div class="fact underborder">
+                  <strong>150</strong>
+                  {% trans 'волонтера' %}
+              </div>
+              <div class="fact">
+                  <strong>8</strong>
+                  {% trans 'площадок' %}
+              </div>
+              <div class="fact">
+                  <strong>8</strong>
+                  {% trans 'городов в Беларуси' %}
+              </div>
+              <div class="fact">
+                  <strong>15</strong>
+                  {% trans 'стран-удзельнікаў міжнародных паказаў' %}
+              </div>
 
-          <ul id="places">
-              <li id="place-museum-nat">
+              <ul id="places">
+                  <li id="place-museum-nat">
   	      <span>{% trans 'Национальный художественный музей' %},<br/>
   		<address>{% trans 'ул. Ленина, 20' %}</address>
   	      </span>
-              </li>
-              <li id="place-museum-cin">
+                  </li>
+                  <li id="place-museum-cin">
   	      <span>{% trans 'Музей истории белорусского кино' %},
   		<address>{% trans 'ул. Свердлова, 4' %}</address>
   	      </span>
-              </li>
-              <li id="place-ddm">
+                  </li>
+                  <li id="place-ddm">
   	      <span>{% trans 'Дворец детей и молодежи' %},<br/>
   		<address>{% trans 'Старовиленский тракт, 41' %}</address>
   	      </span>
-              </li>
-              <li id="place-la-mora">
+                  </li>
+                  <li id="place-la-mora">
   	      <span>{% trans 'ДК «La мора»' %},
   		<a href="http://la-mora.info">la-mora.info</a>
   	      </span>
-              </li>
-          </ul>
+                  </li>
+              </ul>
+          </div>
       </div>
+
   </div>
 
       <!-- footer block -->
