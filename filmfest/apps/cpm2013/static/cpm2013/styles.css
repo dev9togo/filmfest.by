@@ -35,15 +35,7 @@ a, a:hover, a:visited {
     border-bottom-color: #000000;
     border-top-color: #000000;
 }
-#current-lang {
-    color: #000000;
-    display: block;;
-    line-height: 19px;
-    padding: 9px 10px 11px;
-}
-.nav > li > a.other-lang {
-    color: #777777;
-}
+
 /* header */
 #header-call {
     display: block;
@@ -147,6 +139,37 @@ a#header-call:hover {
 
 
 /********************CPM2013**************************/
+.cpm2013 .nav.pull-right a {
+    /*padding: 5px 10px;*/
+}
+/* styles for new menu */
+
+#current-lang {
+    color: #000000;
+    display: block;;
+    line-height: 19px;
+    padding: 9px 10px 11px;
+}
+.nav > li > a.other-lang {
+    color: #777777;
+}
+
+
+.navbar .nav li>a {
+    padding: 9px 10px 11px;
+}
+
+.navbar .nav.pull-right.lang-list {
+    margin-left: 15px;
+}
+.navbar .nav.lang-list > li > .lang-item {
+    color: #ccc;
+    padding: 9px 10px 11px;
+}
+.navbar .nav.lang-list > li > .lang-item.lang-item__current {
+    color: #fff;
+}
+
 #header {
     text-align: right;
 }
@@ -163,7 +186,6 @@ a#header-call:hover {
     text-align: center;
     color: #FFFFFF;
 }
-<<<<<<< HEAD
 h1 #CinemaPerpetuumMobile span {
     display: block;
 }
@@ -172,9 +194,10 @@ h1 #CinemaPerpetuumMobile span {
     /*border-bottom: 1px solid #AAAAAA;*/
 }
 .facts {
-    display: relative;
+    position: relative;
     background: #ffffff;
-    left: 100px;
+    /*left: 100px;*/
+    width: 200px;
 }
 
 .fact {
@@ -215,9 +238,39 @@ h1 #CinemaPerpetuumMobile span {
     max-height: 240px;
 }
 
-
-=======
-h1#CinemaPerpetuumMobile span {
-    display: block;
+.jury_member {
+    position: relative;
 }
->>>>>>> 1d4da0d850976b7d5ec995dc093b36b8a1519b29
+
+.jury_photo {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+.name_wrp {
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    /*top: 0px;*/
+    right: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    max-height: 60px;
+}
+.jury_name {
+    margin: 0px;
+}
+
+.jury_member .jury_details {
+    width: 860px;
+    margin-left: -420px;
+}
+
+.jury_name-details {
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
