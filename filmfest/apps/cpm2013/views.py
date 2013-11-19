@@ -19,6 +19,9 @@ from apps.cpm2013.models import Submission, NewsEntry, Page,\
 from apps.cpm2013.forms import SubmissionForm, FileUploadForm
 from apps.cpm2013.tasks import SendSubmissionEmail
 
+#with open('') as f:
+#    INDEX_DATA= json.load(f)
+
 def index(request):
     news = NewsEntry.objects.language().order_by('-added_at')[:10]
     return render_to_response(

@@ -246,6 +246,15 @@ h1 #CinemaPerpetuumMobile span {
     display: block;
     width: 300px;
     height: 300px;
+    -webkit-filter: grayscale(90%);
+    -webkit-transition : -webkit-filter 300ms linear;
+    opacity: 0.6;
+    transition: opacity 300ms linear;
+
+}
+.jury_photo:hover {
+    -webkit-filter: grayscale(0%);
+    opacity: 1;
 }
 .name_wrp {
     margin: 0px;
