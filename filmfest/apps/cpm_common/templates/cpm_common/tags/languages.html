@@ -1,0 +1,35 @@
+<div class="nav-collapse">
+    <ul class="nav pull-right lang-list">
+        {% for lang_code, lang, url, is_active in languages %}
+            {% if is_active %}
+                <li><strong id="current-lang" class="lang-item lang-item__current navbar-text">[{{ lang_code }}]</strong></li>
+            {% else %}
+                <li><a href="{{ url }}" class="lang-item ">[{{ lang_code }}]</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    <ul class="nav pull-left">
+        <li class=" ">
+            <a href="/2014/">
+                Главная
+            </a>
+        </li>
+        <li class=" ">
+            <a href="#intro">
+               Вступление
+            </a>
+        </li>
+        <li class=" ">
+            <a href="#winners">
+                Победители
+            </a>
+        </li>
+        <li class=" ">
+            <a href="#jury">
+                Жюри
+            </a>
+        </li>
+
+        <li class="divider-vertical"></li>
+    </ul>
+</div>

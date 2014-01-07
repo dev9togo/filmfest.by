@@ -1,21 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# Uter Ben, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-11 01:32+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2014-01-07 16:39+0300\n"
+"PO-Revision-Date: 2014-01-07 16:40+0300\n"
+"Last-Translator: Uter Ben\n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: admin.py:33
 msgid "Previewed"
@@ -1589,21 +1589,24 @@ msgstr ""
 msgid ""
 "Минский государственный Дворец детей и молодежи\n"
 "Старовиленский тракт, 41"
-msgstr "Minsk State Children and Youth Palace\n"
+msgstr ""
+"Minsk State Children and Youth Palace\n"
 "Starovilensky st., 41"
 
 #: schedule.py:50
 msgid ""
 "кинотеатр Центральный\n"
 "пр-т Независимости, 13"
-msgstr "Central cinemahall\n"
+msgstr ""
+"Central cinemahall\n"
 "Independence Avenue, 13"
 
 #: schedule.py:51
 msgid ""
 "Молодежный образовательный центр \"Фиальта\"\n"
 "ул. Мясникова, 35 (вход со двора)"
-msgstr "Youth education cenntre \"Fialta\"\n"
+msgstr ""
+"Youth education cenntre \"Fialta\"\n"
 "Miasnikova st., 35"
 
 #: schedule.py:53
@@ -1626,14 +1629,16 @@ msgstr ""
 msgid ""
 "Музей современного искусства\n"
 "пр-т Независимости, 47"
-msgstr "Contemprorary art museum\n"
+msgstr ""
+"Contemprorary art museum\n"
 "Independence Avenue, 47"
 
 #: schedule.py:56
 msgid ""
 "Национальный музей\n"
 "ул. Ленина 20"
-msgstr "National museum\n"
+msgstr ""
+"National museum\n"
 "Lenin st., 30"
 
 #: schedule.py:138
@@ -1652,19 +1657,18 @@ msgstr "Center \"Third Sector\""
 msgid ""
 "Кинотеатр \"Красная звезда\"\n"
 "ул. Социалистическая, 4"
-msgstr ""
-"Cinemahall \"Red Star\""
-"Socialistic st., 4"
+msgstr "Cinemahall \"Red Star\"Socialistic st., 4"
 
 #: schedule.py:141
 msgid "Биофак ГрГУ"
 msgstr "Biological faculty of Hrodno State University"
 
-#: schedule.py:197
+#: schedule.py:191
 msgid ""
 "Лидский государственный историко-художественный музей\n"
 "ул. Победы, З7а, Лида"
-msgstr "Lida State History and Art Museum\n"
+msgstr ""
+"Lida State History and Art Museum\n"
 "Pobedy st., 37a, Lida"
 
 #: schedule.py:248 templates/cpm2013/submit.html:56
@@ -1683,7 +1687,7 @@ msgstr ""
 msgid "Please check if you agree"
 msgstr ""
 
-#: views.py:279
+#: views.py:295
 msgid "File with such name exists"
 msgstr ""
 
@@ -1696,17 +1700,17 @@ msgstr ""
 msgid "Export"
 msgstr ""
 
-#: templates/cpm2013/base.html:29
+#: templates/cpm2013/base.html:29 templates/cpm2013/results_index.html:40
 msgid "January, 12-20"
 msgstr ""
 
-#: templates/cpm2013/base.html:30
+#: templates/cpm2013/base.html:30 templates/cpm2013/results_index.html:43
 msgid "planet Earth"
 msgstr ""
 
 #: templates/cpm2013/base.html:52
 msgid "международный фестиваль"
-msgstr ""
+msgstr "international festival"
 
 #: templates/cpm2013/base.html:53
 msgid "короткометражного кино"
@@ -1754,11 +1758,7 @@ msgstr ""
 msgid "Darya Efimova"
 msgstr ""
 
-#: templates/cpm2013/index.html:7
-msgid "Screenings in Belarus"
-msgstr ""
-
-#: templates/cpm2013/index.html:78
+#: templates/cpm2013/index.html:8
 msgid ""
 "\n"
 "      <p>Welcome to II International Short Film Festival Cinema Perpetuum "
@@ -1831,6 +1831,891 @@ msgstr ""
 #: templates/cpm2013/programs.html:4 templates/cpm2013/programs.html.py:7
 msgid "Programs of the festival"
 msgstr ""
+
+#: templates/cpm2013/results_index.html:7
+msgid "как это было"
+msgstr "how it was"
+
+#: templates/cpm2013/results_index.html:68
+msgid "Вступление"
+msgstr "Intro"
+
+#: templates/cpm2013/results_index.html:87
+msgid "Победители"
+msgstr "Awards"
+
+#: templates/cpm2013/results_index.html:92
+#: templates/cpm2013/results_index.html:94
+msgid "Номинация"
+msgstr "Nomination"
+
+#: templates/cpm2013/results_index.html:93
+msgid "Кадр"
+msgstr "Film still"
+
+#: templates/cpm2013/results_index.html:99
+msgid "Гран-при"
+msgstr "Grand-prix"
+
+#: templates/cpm2013/results_index.html:101
+#: templates/cpm2013/results_index.html:164
+msgid "Эскимосский поцелуй"
+msgstr "Eskimoe Kiss"
+
+#: templates/cpm2013/results_index.html:101
+#: templates/cpm2013/results_index.html:164
+msgid "Карин Брэк (Швеция, 2012)"
+msgstr "Carin Bräck (Sweden, Själbodgatan, 2012)"
+
+#: templates/cpm2013/results_index.html:101
+#: templates/cpm2013/results_index.html:164
+msgid "Драма/ 13 минут"
+msgstr "Drama/ 13 minutes"
+
+#: templates/cpm2013/results_index.html:102
+#: templates/cpm2013/results_index.html:165
+msgid ""
+"Сын Изы в коме после аварии. Мы следуем за ней через боль и страх, когда она "
+"идет к чему-то иному. "
+msgstr ""
+"Isa's son is in coma after the accident. We follow her through pain and fear "
+"to the other side."
+
+#: templates/cpm2013/results_index.html:106
+msgid "Номинация Perpetuum amor"
+msgstr "Nomination Perpetuum amor"
+
+#: templates/cpm2013/results_index.html:108
+msgid "Шум "
+msgstr "Noise"
+
+#: templates/cpm2013/results_index.html:108
+msgid "Татьяна и Ольга Полиектовы (Россия, Санкт-Петербург, 2012)"
+msgstr "Tatiana and Olha Poliektovy (Russia, St.Petersburgh,  2012)"
+
+#: templates/cpm2013/results_index.html:108
+msgid "Драма/ 10 минут"
+msgstr "Drama/ 10 minutes"
+
+#: templates/cpm2013/results_index.html:109
+msgid "Фильм о человеке, шумные мысли которого, мешали ему найти свое счастье."
+msgstr ""
+"Film tells about a man whose loud thoughts prevented him from finding his "
+"own happiness."
+
+#: templates/cpm2013/results_index.html:113
+msgid "Номинация Perpetuum adversi"
+msgstr "Nomination Perpetuum adversi"
+
+#: templates/cpm2013/results_index.html:115
+msgid "Революция в Рейкьявике"
+msgstr "Revolution Reykjavik"
+
+#: templates/cpm2013/results_index.html:115
+msgid "Изольд Уггадоттир (Исландия, 2012)"
+msgstr "Isold Uggadottir (Iceland, 2012)"
+
+#: templates/cpm2013/results_index.html:115
+msgid "Драма/ 19 минут"
+msgstr "Drama/ 19 minutes"
+
+#: templates/cpm2013/results_index.html:116
+msgid ""
+"Из-за коллапса исландской экономики Гудфинна (которой 58 лет), восстает "
+"против кризиса, чтобы сохранить собственное достоинство."
+msgstr ""
+"As the Icelandic economy collapses, Gudfinna (58) struggles to retain her "
+"dignity."
+
+#: templates/cpm2013/results_index.html:120
+msgid "Номинация Perpetuum arts"
+msgstr "Nomination Perpetuum arts"
+
+#: templates/cpm2013/results_index.html:122
+msgid "Нить сновидения"
+msgstr "Sleepincord"
+
+#: templates/cpm2013/results_index.html:122
+msgid "Марта Пайек (Польша, Лодзь, 2011)"
+msgstr "Marta Pajek (Poland, Lodz, 2011)"
+
+#: templates/cpm2013/results_index.html:122
+msgid "Драма /14 минут"
+msgstr "Drama/ 14 minutes"
+
+#: templates/cpm2013/results_index.html:123
+msgid ""
+"Фильм “Нить сновидения” раскрывает тему сна. Сон — это место встречи мира "
+"цела и разума; это неуловимо для нас и тяжело распозноваемо.  Сны переносят "
+"нас в мир, где правилы изменчивы, в то время как Реальный мир, правила "
+"которого, очевидно, мы знаем, кажется нам лишенным логики."
+msgstr ""
+"“Snepowina” (Sleepincord) raises the issue of dream. Dream is the meeting "
+"point of the world of body and mind; it is intangible for us and hard to "
+"examine thoroughly. Dream takes us to the world where rules are variable, "
+"while The real word, the rules of which we apparently know, appears to be "
+"similarly deprived of logic."
+
+#: templates/cpm2013/results_index.html:127
+msgid "Номинация Perpetuum mobile"
+msgstr "Nomination Perpetuum mobile"
+
+#: templates/cpm2013/results_index.html:129
+msgid "Мама"
+msgstr "Mama"
+
+#: templates/cpm2013/results_index.html:129
+msgid "Дмитрий Суржиков (Украина, г. Одесса, 2011)"
+msgstr "Dmitry Surzhikov (Ukraine, Odessa, 2011)"
+
+#: templates/cpm2013/results_index.html:129
+msgid "Драма/ триллер/ 15 минут"
+msgstr "Drama/thriller/  15 minutes"
+
+#: templates/cpm2013/results_index.html:130
+msgid ""
+"Дети вырастают, и у них начинается своя жизнь. Зачастую это происходит вдали "
+"от родного дома. Одиночество и старость — вот что ждет нашу героиню, Маму. "
+"Весь ее мир — это однокомнатная квартирка в старом доме, с видом на стройку "
+"новой многоэтажки, кроссворды и телевизор. Однажды сосед Мамы просит "
+"присмотреть ее за его питомцем — игуаной, которая заменяет ей ребенка. "
+msgstr ""
+"Children grow up and start their own life. Most often it happens away from "
+"home. Loneliness and senility are awaiting our heroine, Mama. Her entire "
+"world is a one-room flat in an old house, overlooking a future high-rise "
+"building, crosswords, and a TV-set. One day Mama’s neighbour asks her to "
+"take care of his pet — an iguana that she starts treating like her baby."
+
+#: templates/cpm2013/results_index.html:134
+msgid "Номинация Perpetuum vita"
+msgstr "Nomination Perpetuum vita"
+
+#: templates/cpm2013/results_index.html:136
+msgid "Висельник"
+msgstr "Willy"
+
+#: templates/cpm2013/results_index.html:136
+msgid "Бартош Круглик (Польша, Варшава, 2012)"
+msgstr "Bartosz Kruhlik (Poland, Warsaw, 2012)"
+
+#: templates/cpm2013/results_index.html:136
+msgid "Фантастика, черная комедия/ 15 минут"
+msgstr "Fiction, dark comedy/ 15 minutes"
+
+#: templates/cpm2013/results_index.html:137
+msgid ""
+"Что вы будете делать, если Смерть неожиданно посетит вас? Может ли ваша "
+"жизнь быть выторгована в карточной игре? Черная комедия."
+msgstr ""
+"What would you do if the Death visits you unexpectedly? Could your life be "
+"bargained in a gin rummy game? The black comedy."
+
+#: templates/cpm2013/results_index.html:141
+msgid "Лучший белорусский фильм"
+msgstr "The best belarussian film"
+
+#: templates/cpm2013/results_index.html:143
+msgid "City"
+msgstr "The City"
+
+#: templates/cpm2013/results_index.html:143
+msgid "Андрей Баджи Токинданг (Беларусь, Минск, 2012)"
+msgstr "Andrei Badzi Takindang (Belarus, Minsk, 2012)"
+
+#: templates/cpm2013/results_index.html:143
+msgid "Боевик, пародия, триллер, ужасы/ 4 минуты"
+msgstr "Action, parody, thriller, horror/ 4 minutes"
+
+#: templates/cpm2013/results_index.html:144
+msgid ""
+"События разворачиваются в столице Республики Беларусь, городе Минске. Музыка "
+"группы &quot;RECHA&quot; превращает свирепствующих в городе зомби в обычных "
+"людей, что символизирует силу влияния искусства на общество. В финале клипа "
+"музыканты уезжают спасать своим творчеством другие города."
+msgstr ""
+"The story is happening in the capital of the Republic of Belarus the city of "
+"Minsk. The music of \"RECHA\" band turns  raging throughout the city zombies "
+"into ordinary people. That symbolizes the power of art influence over the "
+"society. At the end of the video musicians set off on a journey to save "
+"other towns and cities by their creative work. "
+
+#: templates/cpm2013/results_index.html:148
+msgid "Лучший фильм в секции урбанистики"
+msgstr "The best urban film"
+
+#: templates/cpm2013/results_index.html:150
+msgid "Сквот — город принадлежит нам"
+msgstr "Squat – The City Belongs to Us"
+
+#: templates/cpm2013/results_index.html:150
+msgid "Кристоф Коэльо  (Франция, 2011)"
+msgstr "Christophe Coellо (France, 2011)"
+
+#: templates/cpm2013/results_index.html:150
+msgid "Документальный/ 94 мин"
+msgstr "Documentary/ 94 minutes"
+
+#: templates/cpm2013/results_index.html:151
+msgid ""
+"История барселонской сети «Miles de Viviendas» (Тысячи домов) — "
+"разношерстной группы активистов, которая решительно реагирует на спекуляцию "
+"недвижимостью в своем городе: с 2002 г. они вламываются в пустующие квартиры "
+"и переделывают их под уютные жилища."
+msgstr ""
+"History of the Barcelona-based activist network «Miles de "
+"Viviendas» (Thousands of Homes) which givs a decisive response to the real "
+"estate speculations in the city. Since 2002, they have broken into empty "
+"apartments and transform them into cozy homes."
+
+#: templates/cpm2013/results_index.html:155
+msgid "Приз зрительских симпатий"
+msgstr "People's Choice Award"
+
+#: templates/cpm2013/results_index.html:157
+msgid "82"
+msgstr "82"
+
+#: templates/cpm2013/results_index.html:157
+msgid "Калум Макдиармид (Великобритания, Лондон, 2012)"
+msgstr "Calum Macdiarmid (United Kingdom (Great Britain), LONDON, 2012)"
+
+#: templates/cpm2013/results_index.html:157
+msgid "Драма, триллер/ 6 минут"
+msgstr "Drama/thriller/  6 minutes"
+
+#: templates/cpm2013/results_index.html:158
+msgid ""
+"Почтальон (актер Ник Моран) позволяет нам проникнуть в свой темный мир в "
+"тихом пригороде. "
+msgstr ""
+"A postman [played by Nick Moran] lets us into his dark world in quiet "
+"suburbia."
+
+#: templates/cpm2013/results_index.html:162
+#: templates/cpm2013/results_index.html:169
+msgid "Приз зрительских симпатий (Минск, Могилев)"
+msgstr "People's Choice Award (Minsk, Mogilev)"
+
+#: templates/cpm2013/results_index.html:171
+msgid "Circus"
+msgstr "Circus"
+
+#: templates/cpm2013/results_index.html:171
+msgid "Пабло Ремон (Испания, Мадрид, 2011)"
+msgstr "Pablo Remón (Spain, Madrid, 2011)"
+
+#: templates/cpm2013/results_index.html:171
+msgid "Комедия/ 8 минут"
+msgstr "Comedy/ 8 minutes"
+
+#: templates/cpm2013/results_index.html:172
+msgid ""
+"Скамейка в парке. Два сотрудника, уволенных из-за экономического кризиса. "
+"Революционная идея поможет решить проблему неопределенного будущего."
+msgstr ""
+"A bench in the park. Two executives fired due to the recession. A "
+"revolutionary idea to deal with the uncertain future."
+
+#: templates/cpm2013/results_index.html:176
+msgid "Приз зрительских симпатий (Лондон)"
+msgstr "People's Choice Award (London)"
+
+#: templates/cpm2013/results_index.html:178
+msgid "Простыя рэчы"
+msgstr "Simple things"
+
+#: templates/cpm2013/results_index.html:178
+msgid "Артем Лобач (Беларусь, Борисов, 2012)"
+msgstr "Artem Lobach (Belarus, Borisov, 2012)"
+
+#: templates/cpm2013/results_index.html:178
+#, fuzzy
+msgid "Документальный/ 11 минут"
+msgstr "Documentary/ 11 minutes"
+
+#: templates/cpm2013/results_index.html:179
+msgid ""
+"Кто такой “белоруский мужик”? Этот фильм про белорусского героя от сохи. "
+"Если понять и услышать героя фильма, тогда можно приблизится к пониманию "
+"души простого белоруса. "
+msgstr ""
+"Who is \"the Belarusian man\"? This film is about the Belarusian hero from "
+"the plow. If you understand and hear the film hero then you can come closer "
+"to understanding the soul of ordinary Belarusians."
+
+#: templates/cpm2013/results_index.html:183
+msgid "Приз зрительских симпатий Джорджтауна (Малайзия)"
+msgstr "People's Choice Award of Georgetown (Malaysia)"
+
+#: templates/cpm2013/results_index.html:185
+msgid "Кирляндия"
+msgstr "Kirland"
+
+#: templates/cpm2013/results_index.html:185
+msgid "Илья Божко (Беларусь, Минск, 2012)"
+msgstr "Ilya Bojko (Belarus, Minsk, 2012)"
+
+#: templates/cpm2013/results_index.html:185
+msgid "Сатира, фантастическая антутопия/7 минут"
+msgstr "Satire, fantastic dystopia / 7 minutes"
+
+#: templates/cpm2013/results_index.html:186
+msgid ""
+"Политическая сатира, фантастическая антиутопия в классической эстетике "
+"немого кинематографа."
+msgstr ""
+"Political satire, fiction dystopia in the style of the classic silent films."
+
+#: templates/cpm2013/results_index.html:190
+msgid "Приз зрительских симпатий  Тирасполя (Молдова) и города Клуй (Румыния)"
+msgstr "People's Choice Award of Tiraspol (Moldova) and Cluj (Romania)"
+
+#: templates/cpm2013/results_index.html:192
+msgid "Второе дыхание"
+msgstr "Second wind"
+
+#: templates/cpm2013/results_index.html:192
+msgid "Сергей Цысс (Россия, Москва, 2012)"
+msgstr "Sergei Tsyss (Russia, 2012)"
+
+#: templates/cpm2013/results_index.html:192
+msgid "Научная фантастика/ 7 минут"
+msgstr "Science fiction/ 7 minutes"
+
+#: templates/cpm2013/results_index.html:193
+msgid ""
+"Каждый день Он должен сделать новый цветок из алюминиевой банки и посадить "
+"его в сухую землю. В этом смысл его существования, ведь в мире больше ничего "
+"не осталось, кроме металлического шелеста цветов апокалипсиса."
+msgstr ""
+"Every day he has to make a new flower of an aluminum can and plant it into "
+"the dry land. This is the meaning of his existence, as nothing else is left "
+"in the world but the rustling of metal flowers of the apocalypse."
+
+#: templates/cpm2013/results_index.html:204
+msgid "январь"
+msgstr "january"
+
+#: templates/cpm2013/results_index.html:208
+msgid "дней"
+msgstr "days"
+
+#: templates/cpm2013/results_index.html:212
+msgid "стран"
+msgstr "country"
+
+#: templates/cpm2013/results_index.html:216
+msgid "участников"
+msgstr "participants"
+
+#: templates/cpm2013/results_index.html:220
+msgid "бюджет"
+msgstr "budget"
+
+#: templates/cpm2013/results_index.html:224
+msgid "членов жюри"
+msgstr "jury members"
+
+#: templates/cpm2013/results_index.html:228
+msgid "волонтера"
+msgstr "volunteers"
+
+#: templates/cpm2013/results_index.html:232
+msgid "площадок"
+msgstr "screenings venues"
+
+#: templates/cpm2013/results_index.html:238
+msgid "городов в Беларуси"
+msgstr "cities and towns in Belarus"
+
+#: templates/cpm2013/results_index.html:244
+msgid "стран-участников <br/> междунарожных показов"
+msgstr "coutries participated in international screenings"
+
+#: templates/cpm2013/results_index.html:248
+msgid "Жюри"
+msgstr "Jury members"
+
+#: templates/cpm2013/results_index.html:253
+msgid "Кори Макеби ( США ) "
+msgstr "Cory McAbee (USA)"
+
+#: templates/cpm2013/results_index.html:253
+msgid "Режиссер"
+msgstr "Director"
+
+#: templates/cpm2013/results_index.html:258
+#: templates/cpm2013/results_index.html:264
+msgid "Кори Макеби(США)"
+msgstr "Cory McAbee (USA)"
+
+#: templates/cpm2013/results_index.html:265
+msgid "Кори Макеби родом из Сан-Франциско, штат Калифорния.<br/>"
+msgstr "Cory McAbee was born in San Francisco (California).<br/>"
+
+#: templates/cpm2013/results_index.html:266
+msgid "Последние 12 лет живет в Нью-Йорке."
+msgstr "He has living in New York for 12 years."
+
+#: templates/cpm2013/results_index.html:267
+msgid ""
+" Он писатель, режиссер, актер и композитор таких фильмов, как \"Американский "
+"астронавт\" (2001) и \"Stingray Sam\" (2009)."
+msgstr ""
+"Writer, director, actor and composer of such films as: ‘American "
+"Spaceman’ (2001) and ‘Stingray Sam’ (2009)."
+
+#: templates/cpm2013/results_index.html:268
+msgid ""
+" В числе его ранних выступлений - роль Понтия Пилата в мюзикле \"Jesus "
+"Christ Superstar\". Его фильмы получили широкое международное признание. Как "
+"независимый режиссер и по своей работе в альтернативных формах самопроката, "
+"Кори Макеби проводил мастер-классы и читал лекции в университетах и ​​"
+"симпозиумах по всему миру."
+msgstr ""
+"At the beginning of his acting career he played Pontius Pilate in the "
+"musical “Jesus Christ Superstar”. His movies won recognition all over the "
+"world. Cory McAbee gave numerous master-classes and lectures at universities "
+"and symposiums in different countries as an independent film director, as "
+"well as alternative film distributor."
+
+#: templates/cpm2013/results_index.html:269
+msgid ""
+" В настоящее время Макеби работает над коллекцией некоммерческих "
+"полнометражных и короткометражных фильмов."
+msgstr ""
+"At present Mcabee is working on the collection of non-commercial full-length "
+"and short films."
+
+#: templates/cpm2013/results_index.html:274
+#: templates/cpm2013/results_index.html:297
+#: templates/cpm2013/results_index.html:320
+#: templates/cpm2013/results_index.html:343
+#: templates/cpm2013/results_index.html:366
+#: templates/cpm2013/results_index.html:389
+#: templates/cpm2013/results_index.html:412
+#: templates/cpm2013/results_index.html:436
+#: templates/cpm2013/results_index.html:460
+#: templates/cpm2013/results_index.html:483
+#: templates/cpm2013/results_index.html:506
+#: templates/cpm2013/results_index.html:531
+#: templates/cpm2013/results_index.html:554
+msgid "Закрыть"
+msgstr "Close"
+
+#: templates/cpm2013/results_index.html:280
+msgid "Ли Санг Ву ( Южная Корея ) "
+msgstr "Lee Sang-woo (South Korea)"
+
+#: templates/cpm2013/results_index.html:280
+msgid "Режиссер, актер, сценарист, продюссер"
+msgstr "Director, actor, screenwriter, producer."
+
+#: templates/cpm2013/results_index.html:285
+#: templates/cpm2013/results_index.html:291
+msgid "Ли Санг Ву(Южная Корея)"
+msgstr "Lee Sang-woo (South Korea)"
+
+#: templates/cpm2013/results_index.html:292
+msgid ""
+"Режиссер, актер, сценарист, продюссер (\"Барби\", \"Моя мать- шлюха\", \"Мой "
+"отец - пес\", \"Пожар в аду\"). Его фильмы участвовали в и выигрывали "
+"награды многих международных фестивалей. Лу Санг Ву работал в операторской "
+"команде картины \"Дыхание\" и в режиссерской команде \"Время\", снятые Ким "
+"Ки-Дуком. Профессор режиссуры университета Кёнгки."
+msgstr ""
+"Director, actor, screenwriter, producer (\"Barbie\", \"My mother is a whore"
+"\" \"My father is a dog\", \"Fire in Hell\"). <br/> Participated in and won "
+"prizes at a number of international film festivals all over the world. "
+"Worked in a camera crew of \"Breath\" and in a directing team of \"Time\" by "
+"Kim Ki-duk. <br/>Professor of filmmaking at Kyungki university, Korea."
+
+#: templates/cpm2013/results_index.html:303
+msgid "Карстен Вебер  ( Германия ) "
+msgstr "Karsten Weber (Germany)"
+
+#: templates/cpm2013/results_index.html:303
+#: templates/cpm2013/results_index.html:315
+msgid "Режиссер, творческий руководитель киногруппы “Chaos”"
+msgstr "Director, creative leader of filmgroup \"Chaos\""
+
+#: templates/cpm2013/results_index.html:308
+#: templates/cpm2013/results_index.html:314
+msgid "Карстен Вебер (Германия)"
+msgstr "Karsten Weber (Germany)"
+
+#: templates/cpm2013/results_index.html:326
+msgid "Пьер-Люк Вайянкур ( Канада ) "
+msgstr "Pierre-Luc Vaillancourt (Canada)"
+
+#: templates/cpm2013/results_index.html:326
+msgid "Режиссер, со-основатель Института экспериментального кино"
+msgstr "Director, co-founder of the Institute for Exploratory Cinemas"
+
+#: templates/cpm2013/results_index.html:331
+#: templates/cpm2013/results_index.html:337
+msgid "Пьер-Люк Вайянкур(Канада)"
+msgstr "Pierre-Luc Vaillancourt (Canada)"
+
+#: templates/cpm2013/results_index.html:338
+msgid ""
+"Режиссер, создатель глубоких работ, сочетающих в себе мифологию и литургию, "
+"Пьер-Люк Вайянкур считает, что в кино проявляются антропологические  и "
+"иконоборческие мотивы. Он выступает как режиссер фильмов, создает видео-"
+"инсталляции, используя проекцию как средство выхода за границы реальности. "
+"Со-основатель Института экспериментального кино, он выступил как инициатор "
+"Симпозиума Metal Machine Cinema в Канаде. Кроме того, он курировал "
+"многочисленные программы, которые были представлены в Музее современного "
+"искусства в Загребе, галерее Bunkier Sztuki в Кракове, Центре современного  "
+"искусства Art Ujazdów Castle, а также многочисленные оффлайн-сообщества и "
+"андеграундный киноклуб."
+msgstr ""
+"Filmmaker, creator of intense works evoking mythology and liturgy, he "
+"considers cinema has an anthropological exercise and an iconoclast "
+"discipline. <br/>He directs films, builds video installations and conceives "
+"expanded cinema works using projection as a mean of transcendence.<br/> Co-"
+"founder of the Institute for Exploratory Cinemas, he initiated the Metal "
+"Machine Cinema symposium in Canada alongside curating numerous film and "
+"video programs presented at the Zagreb Museum of Contemporary Art, Bunkier "
+"Sztuki, Centre for Contemporary Art Ujazdów Castle and multiple offline "
+"networks and underground cinema club."
+
+#: templates/cpm2013/results_index.html:349
+msgid "Мацей Гиль ( Польша ) "
+msgstr "Maciej Gil (Poland) "
+
+#: templates/cpm2013/results_index.html:349
+msgid "Историк кино, президент Польской Федерации киноклубов"
+msgstr "Cinema historian, president of the  Polish Federation of Film Clubs"
+
+#: templates/cpm2013/results_index.html:354
+#: templates/cpm2013/results_index.html:360
+msgid "Мацей Гиль(Польша)"
+msgstr "Maciej Gil (Poland)"
+
+#: templates/cpm2013/results_index.html:361
+msgid ""
+"Родился в Кракове в 1981 г. Историк кино, организатор различных "
+"киномероприятий, менеджер в сфере кинопроизводства, президент Польской "
+"Федерации киноклубов, представитель киноклубов Центральной и Восточной "
+"Европы в Исполнительном комитете Международной федерации киноклубов, арт-"
+"директор кинофестиваля ‘Kino na Granicy’ (Польша-Чехия), соорганизатор "
+"Летней Киноакадемии (Letnia Akademia Filmowa, Звежинец, Польша), "
+"международного кинофестиваля «Европейский экспресс» (Киев, Украина) и других "
+"кинофестивалей. Руководит киноклубом DKF Rozpięci в г. Краков. В качестве "
+"члена жюри участвовал в Международном кинофестивале в Карловых Варах, "
+"Польском кинофестивале в Гдыне, Краковском кинофестивале, кинофестивале в "
+"Циттау (Германия), Международном кинофестивале Jeden svet (Братислава), "
+"Международном кинофестивале Etiuda&Anima (Краков). Живет и работает в "
+"Центральной Европе."
+msgstr ""
+"Born in Krakov in 1981, cinema historian, organizer of multiple cinema "
+"events, cinema production manager, Secretary General of the Polish "
+"Federation of Film Societies, member of Central European Federation of Film "
+"Societies in the Executive committee for the International Federation of "
+"Film Societies, art-director of film festival ‘Kino na Granicy (Poland - "
+"Czech Republic), co-organizer of Summer Film Academie (Letnia Akademia "
+"Filmowa, Zwierzyniec, Poland), international film festival European Express "
+"(Kiev, Ukraine), and other film festivals. Head of DKF Rozpięci cinema club "
+"in Krakow. As member of the ury, took part in Karlovy Vary International "
+"Film Festival, Polish Film Festival in Gdyina, Krakow Film Festival, Film "
+"Festival in Zittau (Germany), International Film Festival ‘Jeden "
+"svet’ (Bratislava), International Film Festival Etiuda&Anima (Krakow). <br/"
+">Resides and works in Central Europe. "
+
+#: templates/cpm2013/results_index.html:372
+msgid "Джон Рубин ( CША ) "
+msgstr "Jon Rubin (USA)"
+
+#: templates/cpm2013/results_index.html:372
+#, fuzzy
+msgid ""
+"Преподаватель, директор Центра онлайн обучения (COIL) при Нью-Йоркском "
+"университете (SUNY)"
+msgstr ""
+"Professor of Film and New Media at SUNY Purchase College, Director of the "
+"SUNY Center for Collaborative Online International Learning (COIL)."
+
+#: templates/cpm2013/results_index.html:377
+#: templates/cpm2013/results_index.html:383
+msgid "Джон Рубин(CША)"
+msgstr "Jon Rubin (USA)"
+
+#: templates/cpm2013/results_index.html:384
+msgid ""
+"Директор Центра совместного онлайн обучения (COIL) при Нью-Йоркском "
+"университете (SUNY). Профессор в SUNY Purchase College, преподавал кино и "
+"новые медиа, разработал кросс-культурный видеокурс, в рамках которого "
+"студенты SUNY создавали фильмы совместно со студентами, находящимися в "
+"Турции, Мексике, Беларуси и Германии, с помощью Интернета. Стипендиат Фонда  "
+"Гуггенхайма, Национального фонда искусств, Фонда Форда и программы Фулбрайт. "
+"Его собственные работы были представлены в Музее современного искусства "
+"(MOMA) и Музее американского искусства Уитни в Нью-Йорке. Он наиболее "
+"известен своим проектом Плавучий кинотеатр (Floating Cinema) - "
+"хореографическим действом из образов, движущихся ночью по воде."
+msgstr ""
+"Director of the SUNY Center for Collaborative Online International Learning "
+"(COIL). He was Professor of Film and New Media at SUNY Purchase College "
+"where he developed a Cross-Cultural Video course in which SUNY students co-"
+"produced videos over the Internet with students in Turkey, Mexico, Belarus, "
+"and Germany. He has received Guggenheim, National Endowment for the Arts, "
+"Ford Foundation  and Fulbright fellowships. His own films have been shown at "
+"the Museum of Modern Art and at the Whitney Museum in NY. He is best known "
+"for his Floating Cinema, a choreography of images moving across the water at "
+"night. "
+
+#: templates/cpm2013/results_index.html:395
+msgid "Богдана Смирнова  ( Украина ) "
+msgstr "Bohdana Smirnova (Ukraine) "
+
+#: templates/cpm2013/results_index.html:395
+msgid "Независимый режиссер и сценарист."
+msgstr "Independent filmmaker and screenwriter. "
+
+#: templates/cpm2013/results_index.html:400
+#: templates/cpm2013/results_index.html:406
+msgid "Богдана Смирнова (Украина)"
+msgstr "Bohdana Smirnova (Ukraine)"
+
+#: templates/cpm2013/results_index.html:407
+msgid ""
+"Фильмы Богданы Смирновой побывали почти на 200 показах во многих странах "
+"мира, в том числе на фестивалях Роттердам, Клермон-Ферран и Сламденс, и "
+"получили почти 20 наград. В течение семи лет ее фильм «Бумажные хлопоты» "
+"демонстрировался во французских кинотеатрах. В 2010 году Богдана окончила "
+"престижную магистерскую программу по специальности кинорежиссер в Школе "
+"Искусств Тиш (Tisch), что в Нью-Йоркском университете. Она также стала "
+"первой украинкой, которая попала в престижную Резиденцию Каннского "
+"кинофестиваля. В рамках Резиденции Богдана сейчас работает над своей первой "
+"полнометражной кинолентой \"Манжетка\"."
+msgstr ""
+"Films by Bogdana Smirnova participated in almost 200 screenings in numerous "
+"countries of the world, including Rotterdam festival, Clermont-Ferrand "
+"festival and Slamdance, and received 20 awards. <br/><br/>Her film “Paper "
+"worries” was  screened in French cinema theatres during 7 years. <br/><br/"
+">In 2010 Bogdana completed a prestigious Master programme for film directors "
+"at the Tish School of Arts of the University of New York. <br/><br/>She also "
+"happened to be the first Ukrainian who the Residence of the Cannes Festival. "
+"<br/><br/>Within her internship at the Residence Bogdana is now working on "
+"her first feature film ‘Cuff’."
+
+#: templates/cpm2013/results_index.html:418
+msgid "Сергей Красиков ( США ) "
+msgstr "Sergey Krasikov (USA ) "
+
+#: templates/cpm2013/results_index.html:418
+msgid "Продюсер, оператор, режиссер."
+msgstr "Producer, camera operator and filmmaker."
+
+#: templates/cpm2013/results_index.html:423
+#: templates/cpm2013/results_index.html:429
+msgid "Сергей Красиков(США)"
+msgstr "Sergey Krasikov (USA )"
+
+#: templates/cpm2013/results_index.html:430
+msgid ""
+"Сергей Красиков родился в  Минске. В 2004 г., после 2 лет сотрудничества с "
+"немецким документальным режиссером Каролой Риттер и легендой американского "
+"Движения за гражданские права 1960-х годов Бобом Зеллнером, обосновался в "
+"Бруклине и вплотную занялся кинопроизводством. В качестве продюсера, "
+"главного оператора, режиссера Сергей реализовал десятки проектов – "
+"документальные и независимые игровые картины, концептуальные арт-фильмы и "
+"инсталляции. Регулярно сотрудничает с театрами, музыкантами и танцевальными "
+"группами. Основные сферы личного и профессионального интереса Сергея – "
+"экология, социальная справедливость и искусство."
+msgstr ""
+"Born in Minsk. <br/>After 2 years of cooperation with German documentary "
+"filmmaker Carole Ritter and Bob Zellner, legendary participant of Civil "
+"rights movement of the 1960s in the USA, Sergei Krasikov moved to Brookline "
+"in 2004 and occupied himself with filmmaking. As a producer, main camera "
+"operator and filmmaker Sergei carried out dozens of projects, such as "
+"documentary and independent fiction films, conceptual art-films and "
+"installations.  <br/>Regularly collaborates with theaters, musicians and "
+"dance troupes. <br/>The main personal and professional interests of Sergei "
+"are ecology, social justice and art.  "
+
+#: templates/cpm2013/results_index.html:431
+msgid ""
+"Многие фильмы Сергея были отмечены призами на престижных кинофестивалях в "
+"разных странах мира."
+msgstr ""
+"Many of his works were prized at prestigious film festivals around the world."
+
+#: templates/cpm2013/results_index.html:442
+msgid "Юрий Игруша ( Беларусь ) "
+msgstr "Yury Igrusha (Belarus)"
+
+#: templates/cpm2013/results_index.html:442
+msgid "Продюсер, режиссер, сценарист."
+msgstr "Producer, filmmaker, screenwriter."
+
+#: templates/cpm2013/results_index.html:447
+#: templates/cpm2013/results_index.html:453
+msgid "Юрий Игруша(Беларусь)"
+msgstr "Yury Igrusha (Belarus)"
+
+#: templates/cpm2013/results_index.html:454
+msgid ""
+"В 1988 г. открыл первую в Беларуси частную видеостудию. Первым организовывал "
+"показы белорусского видео-арта на многичисленных фестивалях в Голландии, "
+"Германии, Дании, Швеции, России, Польше, Латвии.         Работал Генеральным "
+"продюсером телеканала ОНТ, компаний «Око», «Телефильм»."
+msgstr ""
+"Prize winner of numerous international film festivals. At the present time - "
+"the director of RUE “Belarusian video center”.  "
+
+#: templates/cpm2013/results_index.html:455
+msgid ""
+" Лауреат и призер многочисленных международных кинотелефестивалей. В "
+"настоящее время - директор РУП «Белорусский видеоцентр»."
+msgstr ""
+"Prize winner of numerous international film festivals. At the present time - "
+"the director of RUE “Belarusian video center”.  "
+
+#: templates/cpm2013/results_index.html:466
+msgid "Павел Иванов  ( Беларусь ) "
+msgstr "Pavel Ivanov (Belarus) "
+
+#: templates/cpm2013/results_index.html:466
+msgid "Режиссер, профессор Белорусской государственной академии искусств"
+msgstr "Director, professor of the Belarusian State Academy of Arts. "
+
+#: templates/cpm2013/results_index.html:471
+#: templates/cpm2013/results_index.html:477
+msgid "Павел Иванов (Беларусь)"
+msgstr "Pavel Ivanov (Belarus)"
+
+#: templates/cpm2013/results_index.html:478
+msgid ""
+"Работал главным режиссером программ для молодежи на Белорусском телевидении, "
+"снял более тысячи телевизионных программ, очерков, портретов, документальных "
+"фильмов. Ныне декан факультета экранных искусств, профессор кафедры "
+"режиссуры кино и телевидения Белорусской государственной академии искусств, "
+"художественный  руководитель творческой мастерской режиссуры ТВ."
+msgstr ""
+"Worked as the principal director of youth programmes on Belarusian "
+"television, made more than thousand TV programes, feature stories and "
+"documentals.At the present time Pavel is the dean of the Faculty of Film "
+"making, professor of Film and TV Directing  department in the Belarusian "
+"State Academy of Arts, art director of creative boutique of TV directing. "
+
+#: templates/cpm2013/results_index.html:489
+msgid "Антон Сидоренко ( Беларусь ) "
+msgstr "Anton Sidorenko (Belarus)"
+
+#: templates/cpm2013/results_index.html:489
+msgid "Кинокритик, журналист, обозреватель в сфере кино."
+msgstr "Journalist, cinema reviewer."
+
+#: templates/cpm2013/results_index.html:494
+#: templates/cpm2013/results_index.html:500
+msgid "Антон Сидоренко(Беларусь)"
+msgstr "Anton Sidorenko (Belarus)"
+
+#: templates/cpm2013/results_index.html:501
+msgid ""
+"Антон Сидоренко, журналист, обозреватель в сфере кино. Родился и живет в "
+"Минске. Застал эпоху кино в кинотеатрах. Пришел в журналистику в конце "
+"существования ее традиционной формы. Автор одного за самых долго "
+"существующих блогов в белорусском интернете «КиноЧтиво» (kinopark.by), а "
+"также множества печатных изданий, в том числе - «Белорусская Деловая "
+"газета», «Белорусская газета», «Культура», «Искусство», «Обозреватель». "
+"Автор программ и ведущий пяти сезонов клуба «Феномены кино» в минском "
+"кинотеатре «Ракета». Бывалый сотрудник Музея истории белорусского кино."
+"Любимый режиссер - Микеланджело Антониони. Сфера интересов на сегодняшний "
+"день - документалистика."
+msgstr ""
+"Born and live in Minsk. Caught out the epoch of films in cinema theaters. He "
+"turned to journalism at the very end of its traditional comprehension. Anton "
+"is the author of the longest existent belarusian blog “KinoChivo” (kinopark."
+"by), as well as numerous printed publications, among them - “Belarusskaya "
+"Delovaya Gazeta”, ”Belarusskaya Gazeta”, ”Cultura”, ”Iskusstvo”, "
+"“Obozrevatel”. He is the author of programmes and a linkman of five seasons "
+"of “Cinema Phenomenon” club in the Minsk cinema theater “Raketa”. Former "
+"staff member of the Museum of the Belarusian Cinema History. <br/>Favourite "
+"filmmaker - Michelangelo Antonioni. Current spheres of interests - "
+"documentation. "
+
+#: templates/cpm2013/results_index.html:512
+msgid "Ирина Демьянова ( Беларусь ) "
+msgstr "Irina Demyanova (Belarus)"
+
+#: templates/cpm2013/results_index.html:512
+msgid ""
+"Преподаватель, программный директор международного кинофестиваля «Лiстапад», "
+"редактор студии «Летопись» Национальной киностудии «Беларусьфильм»."
+msgstr ""
+"Professor, programming director of Minsk International Film Festival "
+"“Listapad”, editor in “Letopis” studio of "
+"the “Belarusfilm”"
+
+#: templates/cpm2013/results_index.html:517
+#: templates/cpm2013/results_index.html:523
+msgid "Ирина Демьянова(Беларусь)"
+msgstr "Irina Demyanova (Belarus)"
+
+#: templates/cpm2013/results_index.html:524
+msgid ""
+"Окончила филологический факультет  БГУ в Минске и киноведческий факультет "
+"ВГИКа в Москве. Работала редактором в Белтелерадиокомпании, главным "
+"редактором в «Белорусском видеоцентре», главным редактором по спецпроектам "
+"МТРК «Мир», сегодня работает ведущим редактором студии «Летопись» "
+"Национальной киностудии «Беларусьфильм». С  первого конкурса в 2007 году и "
+"по настоящее время является программным директором конкурсов документального "
+"кино Минского международного кинофестиваля «Лiстапад». "
+msgstr ""
+"Graduated from the Philology Department of the Belarusian State University "
+"in Minsk and Film Study Department in the All-Russian State University of "
+"Cinematography named after S. A. Gerasimov in Moscow. <br/>Worked as an "
+"editor in Belteleradiocompany, editor in chief in Belarusian Video Centre, "
+"special projects editor-in-chief in the television and radio broadcasting "
+"company “Mir”.<br/> Today Irina is a senior editor in “Letopis” studio of "
+"the “Belarusfilm”. <br/>Starting from 2007 Irina is a programming director "
+"of documentary films competition of Minsk International Film Festival "
+"“Listapad”."
+
+#: templates/cpm2013/results_index.html:525
+msgid ""
+"Преподает в Институте журналистики БГУ и Белорусской государственной "
+"академии искусств. "
+msgstr ""
+"Professor in the Institute of Journalism of the Belarusian State University "
+"and the Belarusian State Academy of Arts. "
+
+#: templates/cpm2013/results_index.html:526
+msgid "Член союза кинематографистов."
+msgstr "Member of Belarusian Union of Cinematographers. "
+
+#: templates/cpm2013/results_index.html:537
+msgid "Ольга Дашук ( Беларусь ) "
+msgstr "Volha Dashuk (Belarus)"
+
+#: templates/cpm2013/results_index.html:537
+msgid "Киновед, режиссер, преподаватель."
+msgstr "Film expert, fillmaker, professor."
+
+#: templates/cpm2013/results_index.html:542
+#: templates/cpm2013/results_index.html:548
+msgid "Ольга Дашук(Беларусь)"
+msgstr "Volha Dashuk (Belarus)"
+
+#: templates/cpm2013/results_index.html:549
+msgid ""
+"Окончила Белорусскую академию искусств (1994), аспирантуру Института "
+"искусствоведения, этнографии и фольклора Национальной академии наук Беларуси "
+"(1998). Стажировалась в продюсерской мастерской при Амстердамском летнем "
+"университете (Нидерланды, 1993), в центре FOJO (Кальмар, Швеция, 1999), на "
+"факультете Медиа и коммуникации» Academia Istropolitana Nova (Братислава, "
+"Словакия, 2000). Работает режиссером на киностудии «Беларусьфильм». "
+"Преподает в Белорусском коллегиуме."
+msgstr ""
+"Graduated from the Belarusian State Academy of Arts (1994), postgraduate "
+"studies in the Institute of Arts, Ethnography and Folklore of the National "
+"Academy of Sciences of Belarus (1998). Interned in the production studio in "
+"the University of Amsterdam (Netherlands, 1993), in the center of FOJO "
+"(Kalmar, Sweden, 1999), at the Faculty of Media and Communication in "
+"Academia Istropolitana Nova (Bratislava, Slovakia, 2000).Volha is a "
+"filmmaker in the “Belarusfilm” and a professor at the Belarusian Collegium."
 
 #: templates/cpm2013/rules.html:4
 msgid "Regulations"
@@ -1981,6 +2866,39 @@ msgstr ""
 msgid "Queistionnaire"
 msgstr ""
 
+#~ msgid ""
+#~ "Историк кино, организатор различных киномероприятий, менеджер в сфере "
+#~ "кинопроизводства, президент Польской Федерации киноклубов, представитель "
+#~ "киноклубов Центральной и Восточной Европы в Исполнительном комитете "
+#~ "Международной федерации киноклубов"
+#~ msgstr ""
+#~ "Cinema historian, organizer of multiple cinema events, cinema production "
+#~ "manager, Secretary General of the Polish Federation of Film Societies, "
+#~ "member of Central European Federation of Film Societies in the Executive "
+#~ "committee for the International Federation of Film Societies"
+
+#~ msgid ""
+#~ "Режиссер, участник и лауреат многих кино-телефестивалей, профессор "
+#~ "кафедры режиссуры кино и телевидения Белорусской государственной академии "
+#~ "искусств"
+#~ msgstr ""
+#~ "Prize winner of numerous international film festivals. At the present "
+#~ "time - the director of RUE “Belarusian video center”.  "
+
+#~ msgid "Фильм"
+#~ msgstr "Film"
+
+#~ msgid ""
+#~ "События разворачиваются в столице Республики Беларусь, городе Минске. "
+#~ "Музыка группы "
+#~ msgstr ""
+#~ "Action, parody, thriller, horror/ 4 minutesThe story is happening in the "
+#~ "capital of the Republic of Belarus the city of Minsk. The music of "
+#~ "\"\"RECHA\"\" band turns  raging throughout the city zombies into "
+#~ "ordinary people. That symbolizes the power of art influence over the "
+#~ "society. At the end of the video musicians set off on a journey to save "
+#~ "other towns and cities by their creative work."
+
 #~ msgid "ДК La мора"
 #~ msgstr "House of culture La mora"
 
@@ -1995,9 +2913,3 @@ msgstr ""
 
 #~ msgid "клипы, презентация KinoLife.com"
 #~ msgstr "musical video, presentation of KinoLife.com"
-
-#~ msgid "Карин Брэк"
-#~ msgstr "Carin Brack"
-
-#~ msgid "Пьер-Люк Вайянкур"
-#~ msgstr "Pierre-Luc Vaillancourt"

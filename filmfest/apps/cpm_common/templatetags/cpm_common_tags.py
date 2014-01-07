@@ -54,6 +54,19 @@ def mainmenu(request):
         'languages': languages,
     }
 
+@register.inclusion_tag('cpm_common/tags/languages.html')
+def languages(request):
+    cur_lang = translation.get_language().split('-')[0]
+    lang_url = '/%%s%s' % request.get_full_path()
+    languages = [(code, name, lang_url % code, code == cur_lang) for code, name in [
+        ('en', 'English'),
+        ('ru', 'Русский'),
+        ('be', 'Беларуская'),
+        ]]
+    return {
+        'languages': languages,
+    }
+
 @register.inclusion_tag('cpm_common/tags/bottommenu.html')
 def bottommenu():
     return {
